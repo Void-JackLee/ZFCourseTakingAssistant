@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../lib/jquery/jquery-3.4.1.min.js"></script>
+    <style>
+        html,body {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<script src="https://cdn.bootcdn.net/ajax/libs/vConsole/3.7.0/vconsole.min.js"></script>
+<script >
+    // 初始化
+    var vConsole = new VConsole();
+</script>
+<div style="background-color: black;height: 350px">
+    <style>
+        h1 {
+            color: white;
+            margin: 0;
+        }
+
+        select {
+            /*width: 300px;*/
+            border: 1px solid white;
+            background-color: black;
+            color: white;
+            outline: none;
+            height: 300px !important;
+            display: block;
+            padding: 5px 0 5px;
+            margin: 0 5px 0 5px;
+        }
+
+        #ok {
+            display: flex;
+            height: 300px;
+            align-items: center;
+        }
+
+        #button_domain {
+            margin: 10px;
+        }
+
+        .button_domain button {
+            width: 100px;
+            height: 50px;
+            background-color: black;
+            color: white;
+            border: 1px white solid;
+            cursor: pointer;
+            display: block;
+            margin: 5px;
+        }
+
+        .button_domain button:hover {
+            background-color: white;
+            color: black;
+        }
+
+        #inf {
+            display: flex;
+        }
+    </style>
+    <h1>void-lee抢课器</h1>
+    <p style="color:#fff;" id="load">正在加载中。。。按f12查看详细情况。</p>
+    <div id="ok" style="display: none;">
+        <select id="cid" multiple="multiple" style="flex: 1;"></select>
+        <div id="inf" class="button_domain">
+            <select id="jxb" multiple="multiple" style="width: 300px"></select>
+            <div style="overflow-y: scroll;width: 300px;color: white;height: 300px"></div>
+        </div>
+        <span style="color: white">&gt;&gt;</span>
+        <select id="selected" multiple="multiple" style="flex: 1;"></select>
+        <div class="button_domain">
+            <button id="fetch">一键抢课</button>
+            <button id="stole">捡漏</button>
+            <button id="del" style="display: none">删除</button>
+        </div>
+    </div>
+</div>
+
+<script src="../抢课助手.user.js"></script>
+
+<script>
+    $('#load').css('display',"none")
+    $('#ok').css('display',"flex")
+</script>
+
+</body>
+</html>

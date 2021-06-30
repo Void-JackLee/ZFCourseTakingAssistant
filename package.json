@@ -1,0 +1,12 @@
+{
+  "name": "zf_course_take_assistant",
+  "version": "1.1.0",
+  "newVersionDescription": "",
+  "description": "Auto fetch courses.",
+  "main": "抢课助手.user.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "VoidJackLee",
+  "license": "GPLv2"
+}
