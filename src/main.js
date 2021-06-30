@@ -107,7 +107,7 @@ window.onload = function() {
         success: (data) => {
             if (data.version !== pro_info.version) {
                 const h1 = $('h1');
-                h1.html(h1.html() + `<h5 style="font-size: 16px;display: inline;margin: 0">(检查到新版本v${data.version}，<a href='https://raw.githubusercontent.com/Void-JackLee/ZFCourseTakingAssistant/main/%E6%8A%A2%E8%AF%BE%E5%8A%A9%E6%89%8B.user.js'>点此更新</a>)</h5>`)
+                h1.html(h1.html() + `<h5 style="font-size: 16px;display: inline;margin: 0">(检查到新版本v${data.version}：${data.newVersionDescription}[<a href='https://raw.githubusercontent.com/Void-JackLee/ZFCourseTakingAssistant/main/%E6%8A%A2%E8%AF%BE%E5%8A%A9%E6%89%8B.user.js'>点此更新</a>])</h5>`);
             }
         }
     })
