@@ -8,7 +8,7 @@ A script for Chinese University Student grabing courses with Zheng Fang Educatio
 * 支持一键抢课（提前进入网站，预先选好要的课程，到了抢课的时间一键抢课）
 * 支持捡漏（可以自动反复抢列表里的课）
 
-> **程序仅供交流学习，请勿用作非法用途**
+> **程序仅供交流学习，请勿用作非法用途，一经发现将追究法律责任**
 
 # Applicable
 

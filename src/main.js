@@ -21,10 +21,13 @@
 //  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 //
 
+const pro_info = require("../package.json")
 require("../lib/x0popup/x0popup_j.css")
 const x0p = require("../lib/x0popup/x0popup_j.js")
 
 window.onload = function() {
+    console.log("%c" + pro_info.author + "抢课助手v" + pro_info.version,"color:red")
+
     const html = "<div style=\"background-color: black;height: 350px\">\n" +
         "    <style>\n" +
         "        h1 {\n" +
@@ -96,6 +99,18 @@ window.onload = function() {
     $('body').prepend(html)
 
     // TODO: 检查更新
+    $.ajax({
+        url: 'https://raw.githubusercontent.com/Void-JackLee/ZFCourseTakingAssistant/main/package.json',
+        dataType: 'json',
+        async: true,
+        method: 'get',
+        success: (data) => {
+            if (data.version !== pro_info.version) {
+                const h1 = $('h1');
+                h1.html(h1.html() + `<h5 style="font-size: 16px;display: inline;margin: 0">(检查到新版本v${data.version}，<a href='https://raw.githubusercontent.com/Void-JackLee/ZFCourseTakingAssistant/main/%E6%8A%A2%E8%AF%BE%E5%8A%A9%E6%89%8B.user.js'>点此更新</a>)</h5>`)
+            }
+        }
+    })
 
     setTimeout(run,0);
 }
