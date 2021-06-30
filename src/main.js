@@ -100,7 +100,7 @@ window.onload = function() {
 
     // TODO: 检查更新
     $.ajax({
-        url: 'https://raw.githubusercontent.com/Void-JackLee/ZFCourseTakingAssistant/main/package.json',
+        url: 'https://raw.githubusercontent.com/Void-JackLee/ZFCourseTakingAssistant/main/package.json?ver=' + new Date().getTime(),
         dataType: 'json',
         async: true,
         method: 'get',
