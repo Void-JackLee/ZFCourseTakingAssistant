@@ -1,7 +1,7 @@
 # ZFCourseTakingAssistant
-A script for Chinese University Student grabing courses with Zheng Fang Educational administration system.
+A script for Chinese University Student grabbing courses with Zheng Fang Educational administration system.
 
-一款面向正方教学一体化教育服务系统的抢课脚本。
+一款面向正方教学一体化教育服务系统（浙江中医药大学）的抢课脚本。
 
 # Features
 
@@ -30,6 +30,8 @@ A script for Chinese University Student grabing courses with Zheng Fang Educatio
 1. 安装油猴子，安装本脚本[https://raw.githubusercontent.com/Void-JackLee/ZFCourseTakingAssistant/main/抢课脚本.user.js](https://raw.githubusercontent.com/Void-JackLee/ZFCourseTakingAssistant/main/%E6%8A%A2%E8%AF%BE%E5%8A%A9%E6%89%8B.user.js)
 
 2. 访问你的选课网址，待他加载完毕后如图所示。（可以按F12打开控制台查看详情）![食用方法](pic/usage.jpg)
+
+红色代表没有余量，白色代表还可以选。
 
 **已知问题：如果过了好久都没显示，刷新即可，如果刷新也不行，则新建一个标签页，把网址复制进去打开，目前怀疑是缓存问题。**
 
