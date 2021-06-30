@@ -33,7 +33,7 @@ A script for Chinese University Student grabbing courses with Zheng Fang Educati
 
 红色代表没有余量，白色代表还可以选。
 
-**已知问题：如果过了好久都没显示，刷新即可，如果刷新也不行，则新建一个标签页，把网址复制进去打开，目前怀疑是缓存问题。**
+**已知问题：如果过了好久都没显示，强制刷新（快捷键：control+shift+R/command+shift+R）即可，是缓存问题。**
 
 # Development
 
