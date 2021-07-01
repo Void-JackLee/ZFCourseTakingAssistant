@@ -12,7 +12,7 @@ A script for Chinese University Student grabbing courses with Zheng Fang Educati
 
 # Applicable
 
-本脚本适用于**正方教学一体化教育服务系统**。
+本脚本适用于**新版正方教学一体化教育服务系统**。
 
 ![主界面](pic/main.png)
 
