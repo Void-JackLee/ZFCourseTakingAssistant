@@ -112,7 +112,7 @@ window.onload = function() {
         }
     })
 
-    setTimeout(run,0);
+    setTimeout(run,100);
 }
 
 function run() {
