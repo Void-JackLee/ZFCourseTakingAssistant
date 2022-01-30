@@ -156,7 +156,7 @@ function run() {
         load_course = load_course.match(/{[\s\S]*}/)[0];
         load_course = load_course.substring(1,load_course.length - 2);
         // 修改请求课程数量
-        load_course = load_course.replace(/var\s+step\s*=\s*.*;/,'var step = 100;\n' +
+        load_course = load_course.replace(/var\s+step\s*=\s*.*;/,'var step = 5000;\n' +
             '\n' +
             '$("#jspage").val("0");\n' +
             '$("#isEnd").val("false");\n'); // 强制加载

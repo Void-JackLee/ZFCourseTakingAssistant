@@ -27,7 +27,7 @@ import json
 import os
 
 print('Building by webpack...')
-os.system('webpack')
+os.system('npm run build')
 print('Converting to Tampermonkey script...')
 
 f = open('package.json','r',encoding='utf8')
