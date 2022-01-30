@@ -16,7 +16,7 @@ A script for Chinese University Student grabbing courses with Zheng Fang Educati
 
 ![主界面](pic/main.png)
 
-目前仅测试过**浙江中医药大学**的教务系统，欢迎其他学校的同学测试后提交issue。
+目前仅测试过**浙江中医药大学**和**杭州电子科技大学**(此处感谢[@weixiabing](https://github.com/weixiabing ))的教务系统，欢迎其他学校的同学测试后提交issue。
 
 ## Environment
 
@@ -24,6 +24,8 @@ A script for Chinese University Student grabbing courses with Zheng Fang Educati
 * Tampermonkey
 
 建议使用安装了Tampermonkey(油猴脚本插件)的谷歌浏览器，其他浏览器没有测试过不敢保证稳定性。
+
+**经测试，火狐浏览器也有不错的效果，安装Tampermonkey插件不需要翻墙，适合安利给妹纸。**
 
 ## Usage
 
