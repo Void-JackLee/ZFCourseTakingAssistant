@@ -29,7 +29,7 @@ A script for Chinese University Student grabbing courses with Zheng Fang Educati
 
 ## Usage
 
-1. 安装油猴子，安装本脚本[https://raw.githubusercontent.com/Void-JackLee/ZFCourseTakingAssistant/main/抢课脚本.user.js](https://raw.githubusercontent.com/Void-JackLee/ZFCourseTakingAssistant/main/%E6%8A%A2%E8%AF%BE%E5%8A%A9%E6%89%8B.user.js)
+1. 安装油猴子，安装本脚本[https://github.com/Void-JackLee/ZFCourseTakingAssistant/raw/main/抢课脚本.user.js](https://github.com/Void-JackLee/ZFCourseTakingAssistant/raw/main/%E6%8A%A2%E8%AF%BE%E5%8A%A9%E6%89%8B.user.js)
 
 2. 访问你的选课网址，待他加载完毕后如图所示。（可以按F12打开控制台查看详情）![食用方法](pic/usage.jpg)
 
